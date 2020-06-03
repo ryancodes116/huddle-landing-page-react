@@ -1,0 +1,26 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto 5rem;
+}
+
+.logo {
+  width: 30%;
+}
+
+.navBtn {
+  background-color: #fff;
+  color: hsl(192, 100%, 9%);
+  border: none;
+  border-radius: 2rem;
+  width: 25%;
+  padding: 0.5rem 0;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.navBtn:hover {
+  opacity: 0.9;
+}

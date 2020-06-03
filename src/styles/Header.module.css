@@ -1,0 +1,21 @@
+.header {
+  background: hsl(193, 100%, 96%) url('../images/bg-hero-mobile.svg') center
+    no-repeat;
+  text-align: center;
+  padding: 2rem 0 3rem;
+}
+
+.title {
+  font-size: 1.7rem;
+  margin-bottom: 1.5rem;
+}
+
+.text {
+  color: hsl(192, 100%, 9%);
+  margin-bottom: 2rem;
+}
+
+.headerBtn {
+  width: 75%;
+  margin-bottom: 3.5rem;
+}
