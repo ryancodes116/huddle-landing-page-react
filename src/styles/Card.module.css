@@ -1,0 +1,30 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 0 3rem;
+  border: 1px solid #ccc;
+  -moz-box-shadow: 0 0 10px #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+  box-shadow: 0 0 10px #ccc;
+  border-radius: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.card {
+  text-align: center;
+}
+
+.img {
+  margin-bottom: 4rem;
+}
+
+.title {
+  margin-bottom: 1rem;
+}
+
+.text {
+  font-size: 1rem;
+  color: hsl(208, 11%, 55%);
+}

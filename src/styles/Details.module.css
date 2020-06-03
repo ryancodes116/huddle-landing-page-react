@@ -1,0 +1,25 @@
+.details {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 5rem;
+}
+
+.cta {
+  padding: 4rem 0 3rem;
+  text-align: center;
+  border: 1px solid #ccc;
+  -moz-box-shadow: 0 0 10px #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+  box-shadow: 0 0 10px #ccc;
+  border-radius: 1rem;
+}
+
+.title {
+  margin-bottom: 2rem;
+}
+
+.cta button {
+  width: 70%;
+  font-size: 0.8rem;
+}
