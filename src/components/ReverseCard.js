@@ -1,8 +1,8 @@
 import React from 'react';
 import classNames from 'classnames';
-import styles from '../styles/Card.module.css';
+import styles from '../styles/ReverseCard.module.css';
 
-const Card = ({ imageSrc, imageAlt, title, text }) => {
+const ReverseCard = ({ imageSrc, imageAlt, title, text }) => {
   return (
     <div className={styles.card}>
       <div className={classNames('container', styles.cardContent)}>
@@ -16,4 +16,4 @@ const Card = ({ imageSrc, imageAlt, title, text }) => {
   );
 };
 
-export default Card;
+export default ReverseCard;

@@ -20,3 +20,37 @@
   width: 75%;
   margin-bottom: 3.5rem;
 }
+
+/* Media Queries */
+@media (min-width: 1000px) {
+  .header {
+    background-image: ('../images/bg-hero-desktop.svg');
+    text-align: left;
+  }
+
+  .headerContent {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .headerText {
+    width: 45%;
+    margin-right: 4rem;
+    font-size: 1rem;
+  }
+
+  .title {
+    font-size: 2.3rem;
+  }
+
+  .headerBtn {
+    margin-bottom: 0;
+  }
+
+  .headerImage {
+    width: 55%;
+  }
+}

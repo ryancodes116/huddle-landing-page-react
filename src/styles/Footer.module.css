@@ -4,6 +4,12 @@
   padding: 12rem 0 3rem;
 }
 
+.logo {
+  filter: brightness(0) invert(1);
+  margin-bottom: 2.2rem;
+  margin-left: 5%;
+}
+
 .footerContent {
   display: flex;
   flex-direction: column;
@@ -14,4 +20,17 @@
 .copyright {
   margin-top: 3rem;
   text-align: center;
+}
+
+/* Media Queries */
+@media (min-width: 1000px) {
+  .footerContent {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .copyright {
+    text-align: right;
+  }
 }

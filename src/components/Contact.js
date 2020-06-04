@@ -1,14 +1,13 @@
 import React from 'react';
 import styles from '../styles/Contact.module.css';
-import logo from '../images/logo.svg';
+
 import location from '../images/icon-location.svg';
 import phone from '../images/icon-phone.svg';
 import email from '../images/icon-email.svg';
 
 const Contact = () => {
   return (
-    <div>
-      <img className={styles.logo} src={logo} alt="Huddle logo" />
+    <div className={styles.contact}>
       <div className={styles.contactMethod}>
         <img
           className={styles.icon}

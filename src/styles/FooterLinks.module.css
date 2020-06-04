@@ -12,3 +12,15 @@
 .listItem:hover {
   text-decoration: underline;
 }
+
+/* Media Queries */
+@media (min-width: 1000px) {
+  .footerLinks {
+    flex-direction: row;
+    margin-top: 0;
+  }
+
+  .list:first-of-type {
+    margin-right: 6rem;
+  }
+}
