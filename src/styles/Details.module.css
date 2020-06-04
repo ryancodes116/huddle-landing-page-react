@@ -2,10 +2,15 @@
   position: relative;
   width: 90%;
   margin: 0 auto;
-  padding-bottom: 5rem;
+  padding-bottom: 15rem;
 }
 
 .cta {
+  position: absolute;
+  bottom: -4%;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
   padding: 4rem 0 3rem;
   text-align: center;
   border: 1px solid #ccc;

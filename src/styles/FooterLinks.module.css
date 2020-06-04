@@ -1,0 +1,14 @@
+.footerLinks {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+}
+
+.listItem {
+  margin-bottom: 1.5rem;
+  cursor: pointer;
+}
+
+.listItem:hover {
+  text-decoration: underline;
+}
